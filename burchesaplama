@@ -1,0 +1,111 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input1 = new Scanner(System.in);
+        int month,day;
+        System.out.print("Which month are you birth?:");
+        month = input1.nextInt();
+
+        System.out.print("Which day are you birth?1:");
+        day = input1.nextInt();
+
+        switch (month){
+            case 1:
+                if (month == 1) {
+                    if (day>=22 && day<=31){
+                        System.out.print("KOVA");
+                    } else if (day>=1 && day<=21) {
+                        System.out.print("OĞLAK");
+                    }
+                }
+            case 2:
+                if (month==2){
+                    if (day>=20 && day<=29){
+                        System.out.print("BALIK");
+                    } else if (day>=1 && day<=19) {
+                        System.out.print("KOVA");
+                    }
+                }
+            case 3:
+                if (month==3){
+                    if (day>=21 && day<=31){
+                        System.out.print("KOÇ");
+                    } else if (day>=1 && day<=20) {
+                        System.out.print("BALIK");
+                    }
+                }
+            case 4:
+                if (month==4){
+                    if (day>=21 && day<=30){
+                        System.out.print("BOĞA");
+                    } else if (day>=1 && day<=20) {
+                        System.out.print("KOÇ");
+                    }
+                }
+            case 5:
+                if (month==5){
+                    if (day>=22 && day<=31){
+                        System.out.print("İKİZLER");
+                    } else if (day>=1 && day<=21) {
+                        System.out.print("BOĞA");
+                    }
+                }
+            case 6:
+                if (month==6){
+                    if (day>=23 && day<=30){
+                        System.out.print("YENGEÇ");
+                    } else if (day>=1 && day<=22) {
+                        System.out.print("İKİZLER");
+                    }
+                }
+            case 7:
+                if (month==7){
+                    if (day>=23 && day<=31){
+                        System.out.print("ASLAN");
+                    } else if (day>=1 && day<=22) {
+                        System.out.print("YENGEÇ");
+                    }
+                }
+            case 8:
+                if (month==8){
+                    if (day>=23 && day<=31){
+                        System.out.print("BAŞAK");
+                    } else if (day>=1 && day<=22) {
+                        System.out.print("ASLAN");
+                    }
+                }
+            case 9:
+                if (month==9){
+                    if (day>=23 && day<=30){
+                        System.out.print("TERAZİ");
+                    } else if (day>=1 && day<=22) {
+                        System.out.print("BAŞAK");
+                    }
+                }
+            case 10:
+                if (month==10){
+                    if (day>=23 && day<=31){
+                        System.out.print("AKREP");
+                    } else if (day>=1 && day<=22) {
+                        System.out.print("TERAZİ");
+                    }
+                }
+            case 11:
+                if (month==11){
+                    if (day>=22 && day<=30){
+                        System.out.print("YAY :)");
+                    } else if (day>=1 && day<=21) {
+                        System.out.print("AKREP");
+                    }
+                }
+            case 12:
+                if (month==12){
+                    if (day>=22 && day<=31){
+                        System.out.print("OĞLAK");
+                    } else if (day>=1 && day<=21) {
+                        System.out.print("YAY :)");
+                    }
+                }
+        }
+    }
+}
